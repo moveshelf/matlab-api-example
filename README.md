@@ -9,7 +9,7 @@ For the MATLAB API , an additional Python interface is added (*PYinterface.py*) 
 ### Python3
 
 The MATLAB API works with Python3, so remember to check if your version is updated. 
-If you work with iOS, the problem is a bit more complicated if you don’t have Python3 already. iOS has Python2 integrated, so you have to install Python3 on your MacBook on a virtual environment (you can check [this](https://code.visualstudio.com/docs/python/python-tutorial) for help).
+If you work with macOS, the problem is a bit more complicated if you don’t have Python3 already. macOS has Python2 integrated, so you have to install Python3 on your MacBook on a virtual environment (you can check [this](https://code.visualstudio.com/docs/python/python-tutorial) for help).
 Moreover, another problem might arise while using MATLAB on MacBook, since MATLAB would run Python2 even if you have already installed Python3 😅, here [this](https://erikreinertsen.com/python3-in-matlab/) is really useful. The few lines of code are already implemented in the MATLAB API, you just have to paste your $PATH from terminal in pathOK variable.
 
 ### Python libraries
